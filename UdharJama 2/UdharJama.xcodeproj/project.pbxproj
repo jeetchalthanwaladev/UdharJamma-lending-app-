@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		951430332EBEFE6300EA8110 /* UdharJamaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951430322EBEFE6300EA8110 /* UdharJamaApp.swift */; };
+		951430352EBEFE6300EA8110 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951430342EBEFE6300EA8110 /* ContentView.swift */; };
+		9514303A2EBEFE6500EA8110 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951430392EBEFE6500EA8110 /* Preview Assets.xcassets */; };
+		9514303C2EBEFE6500EA8110 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514303B2EBEFE6500EA8110 /* Persistence.swift */; };
+		9514303F2EBEFE6500EA8110 /* UdharJama.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9514303D2EBEFE6500EA8110 /* UdharJama.xcdatamodeld */; };
+		951430462EBF004500EA8110 /* TransactionEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951430452EBF004500EA8110 /* TransactionEntity+CoreDataClass.swift */; };
+		951430482EBF007200EA8110 /* TransactionEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951430472EBF007200EA8110 /* TransactionEntity+CoreDataProperties.swift */; };
+		9514304A2EBF00E400EA8110 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951430492EBF00E400EA8110 /* TransactionRow.swift */; };
+		9514304C2EBF011400EA8110 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514304B2EBF011400EA8110 /* AddTransactionView.swift */; };
+		9514304E2EBF07FD00EA8110 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514304D2EBF07FD00EA8110 /* TransactionDetailView.swift */; };
+		951430502EBF0B9A00EA8110 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514304F2EBF0B9A00EA8110 /* NotificationManager.swift */; };
+		9546DE872EF8E8EF00A46A19 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546DE862EF8E8EF00A46A19 /* Currency.swift */; };
+		95548BB32EF16156003877E6 /* PaymentEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95548BB22EF16156003877E6 /* PaymentEntity+CoreDataClass.swift */; };
+		95548BB52EF16181003877E6 /* PaymentEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95548BB42EF16181003877E6 /* PaymentEntity+CoreDataProperties.swift */; };
+		95548BB72EF161CF003877E6 /* AddPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95548BB62EF161CF003877E6 /* AddPaymentView.swift */; };
+		959A21182EF8FBBE00BB96CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959A21172EF8FBBE00BB96CC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9514302F2EBEFE6300EA8110 /* UdharJama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdharJama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		951430322EBEFE6300EA8110 /* UdharJamaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdharJamaApp.swift; sourceTree = "<group>"; };
+		951430342EBEFE6300EA8110 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		951430392EBEFE6500EA8110 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9514303B2EBEFE6500EA8110 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9514303E2EBEFE6500EA8110 /* UdharJama.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UdharJama.xcdatamodel; sourceTree = "<group>"; };
+		951430452EBF004500EA8110 /* TransactionEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransactionEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		951430472EBF007200EA8110 /* TransactionEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransactionEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		951430492EBF00E400EA8110 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		9514304B2EBF011400EA8110 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		9514304D2EBF07FD00EA8110 /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
+		9514304F2EBF0B9A00EA8110 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		9546DE862EF8E8EF00A46A19 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		95548BB22EF16156003877E6 /* PaymentEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaymentEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		95548BB42EF16181003877E6 /* PaymentEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaymentEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		95548BB62EF161CF003877E6 /* AddPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentView.swift; sourceTree = "<group>"; };
+		959A21172EF8FBBE00BB96CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../AppIcons (1)/Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9514302C2EBEFE6300EA8110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		951430262EBEFE6300EA8110 = {
+			isa = PBXGroup;
+			children = (
+				951430312EBEFE6300EA8110 /* UdharJama */,
+				951430302EBEFE6300EA8110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		951430302EBEFE6300EA8110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9514302F2EBEFE6300EA8110 /* UdharJama.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		951430312EBEFE6300EA8110 /* UdharJama */ = {
+			isa = PBXGroup;
+			children = (
+				951430322EBEFE6300EA8110 /* UdharJamaApp.swift */,
+				951430342EBEFE6300EA8110 /* ContentView.swift */,
+				959A21172EF8FBBE00BB96CC /* Assets.xcassets */,
+				9514303B2EBEFE6500EA8110 /* Persistence.swift */,
+				9514303D2EBEFE6500EA8110 /* UdharJama.xcdatamodeld */,
+				951430382EBEFE6500EA8110 /* Preview Content */,
+				951430472EBF007200EA8110 /* TransactionEntity+CoreDataProperties.swift */,
+				951430492EBF00E400EA8110 /* TransactionRow.swift */,
+				9514304B2EBF011400EA8110 /* AddTransactionView.swift */,
+				9514304D2EBF07FD00EA8110 /* TransactionDetailView.swift */,
+				9514304F2EBF0B9A00EA8110 /* NotificationManager.swift */,
+				95548BB22EF16156003877E6 /* PaymentEntity+CoreDataClass.swift */,
+				95548BB42EF16181003877E6 /* PaymentEntity+CoreDataProperties.swift */,
+				95548BB62EF161CF003877E6 /* AddPaymentView.swift */,
+				9546DE862EF8E8EF00A46A19 /* Currency.swift */,
+			);
+			path = UdharJama;
+			sourceTree = "<group>";
+		};
+		951430382EBEFE6500EA8110 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				951430452EBF004500EA8110 /* TransactionEntity+CoreDataClass.swift */,
+				951430392EBEFE6500EA8110 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9514302E2EBEFE6300EA8110 /* UdharJama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951430422EBEFE6500EA8110 /* Build configuration list for PBXNativeTarget "UdharJama" */;
+			buildPhases = (
+				9514302B2EBEFE6300EA8110 /* Sources */,
+				9514302C2EBEFE6300EA8110 /* Frameworks */,
+				9514302D2EBEFE6300EA8110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UdharJama;
+			productName = UdharJama;
+			productReference = 9514302F2EBEFE6300EA8110 /* UdharJama.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		951430272EBEFE6300EA8110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9514302E2EBEFE6300EA8110 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9514302A2EBEFE6300EA8110 /* Build configuration list for PBXProject "UdharJama" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 951430262EBEFE6300EA8110;
+			productRefGroup = 951430302EBEFE6300EA8110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9514302E2EBEFE6300EA8110 /* UdharJama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9514302D2EBEFE6300EA8110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9514303A2EBEFE6500EA8110 /* Preview Assets.xcassets in Resources */,
+				959A21182EF8FBBE00BB96CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9514302B2EBEFE6300EA8110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9514303C2EBEFE6500EA8110 /* Persistence.swift in Sources */,
+				951430352EBEFE6300EA8110 /* ContentView.swift in Sources */,
+				95548BB32EF16156003877E6 /* PaymentEntity+CoreDataClass.swift in Sources */,
+				95548BB52EF16181003877E6 /* PaymentEntity+CoreDataProperties.swift in Sources */,
+				951430502EBF0B9A00EA8110 /* NotificationManager.swift in Sources */,
+				951430332EBEFE6300EA8110 /* UdharJamaApp.swift in Sources */,
+				9514304E2EBF07FD00EA8110 /* TransactionDetailView.swift in Sources */,
+				951430482EBF007200EA8110 /* TransactionEntity+CoreDataProperties.swift in Sources */,
+				9514304A2EBF00E400EA8110 /* TransactionRow.swift in Sources */,
+				9514304C2EBF011400EA8110 /* AddTransactionView.swift in Sources */,
+				9514303F2EBEFE6500EA8110 /* UdharJama.xcdatamodeld in Sources */,
+				95548BB72EF161CF003877E6 /* AddPaymentView.swift in Sources */,
+				9546DE872EF8E8EF00A46A19 /* Currency.swift in Sources */,
+				951430462EBF004500EA8110 /* TransactionEntity+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		951430402EBEFE6500EA8110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		951430412EBEFE6500EA8110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		951430432EBEFE6500EA8110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UdharJama/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = data.UdharJama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		951430442EBEFE6500EA8110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UdharJama/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = data.UdharJama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9514302A2EBEFE6300EA8110 /* Build configuration list for PBXProject "UdharJama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951430402EBEFE6500EA8110 /* Debug */,
+				951430412EBEFE6500EA8110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951430422EBEFE6500EA8110 /* Build configuration list for PBXNativeTarget "UdharJama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951430432EBEFE6500EA8110 /* Debug */,
+				951430442EBEFE6500EA8110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9514303D2EBEFE6500EA8110 /* UdharJama.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9514303E2EBEFE6500EA8110 /* UdharJama.xcdatamodel */,
+			);
+			currentVersion = 9514303E2EBEFE6500EA8110 /* UdharJama.xcdatamodel */;
+			path = UdharJama.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 951430272EBEFE6300EA8110 /* Project object */;
+}
