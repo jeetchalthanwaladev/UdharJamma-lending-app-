@@ -1,4 +1,4 @@
-# UdharJamma-lending-app-
+# UdharJamma-lending-app
 - This is one type of lending tracker app, Udhar Jama. It keeps track of every financial trasection of that we land someone or take from someone. It's also used to calculate interest for given time period. It also displays our monthly net credit/debit and also pushes necessary notification while maintaining history.  
 <img width="100" height="500" alt="Simulator Screen Shot - iPhone 14 Pro - 2025-12-30 at 09 13 18" src="https://github.com/user-attachments/assets/26fa86fd-fbe1-4f60-a27e-112d4b21945a" />
 <img width="100" height="500" alt="Simulator Screen Shot - iPhone 14 Pro - 2025-12-30 at 09 16 49" src="https://github.com/user-attachments/assets/38651d9f-b61c-4fdd-832c-a94937279db9" />
